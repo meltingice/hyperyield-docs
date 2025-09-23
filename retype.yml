@@ -17,3 +17,7 @@ links:
 
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
+
+theme:
+  base:
+    base-color: #005A44
