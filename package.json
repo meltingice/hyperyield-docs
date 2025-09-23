@@ -6,8 +6,8 @@
     "type": "git",
     "url": "git@github.com:meltingice/hyperyield-docs.git"
   },
-  "main": "index.js",
   "scripts": {
+    "start": "retype start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

@@ -1,5 +1,6 @@
 ---
 icon: ":gear:"
+order: 10
 ---
 # How it works
 
@@ -36,3 +37,14 @@ A user can always manually close a position at any time. Doing so will tell Hype
 
 1. Close the position and claim all collateral and fees accrued. This marks the position as "closed".
 2. Swap the full token balances for each token received back from the closed position to WHYPE.
+
+## Yield strategies
+
+Hyperyield offers the ability to take additional actions with the yield generated once a position is rebalanced or closed. By default, Hyperyield will reinvest all earned yield into the next position. However, you can change this strategy on your Account page.
+
+At this point in time, the only other supported yield strategy is depositing into [Felix stability pools](https://usefelix.gitbook.io/docs/money-market-products/quickstart/earning-feusd-yield). When a position is closed, Hyperyield will:
+
+1. Swap all earned yield to feUSD.
+2. Deposit the feUSD into the stability pool of your choice.
+
+You can view your stability pool balance on your Account page at any time. You can also withdraw from the stability pool. When doing so, you will receive feUSD back in your Hyperyield account along with any other assets earned from the stability pool.

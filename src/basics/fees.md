@@ -1,5 +1,6 @@
 ---
 icon: ":credit_card:"
+order: 9
 ---
 
 # Fees
