@@ -24,7 +24,7 @@ This means that the user only ever has to worry about depositing HYPE into their
 
 ## Position management
 
-Hyperyield's backend constantly monitors all open positions to check and see if they are still in range. This check occurs every few minutes. If the position falls out of range, it will:
+Hyperyield's backend constantly monitors all open positions to check and see if they are still in range. This check occurs roughly once per minute. If the position falls out of range, it will:
 
 1. Close the existing position and mark it as "rebalanced". This collects all fees and all collateral in the position.
 2. Check the wallet's current HYPE balance. If it is below the threshold reserved for gas (currently 0.1 HYPE), it will automatically swap an available token back to HYPE (up to 0.2 HYPE). If it's above the upper gas threshold of 0.2 HYPE, it will auto-wrap the excess HYPE to WHYPE and then swap the WHYPE to the first token in the pool.
