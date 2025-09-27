@@ -1,7 +1,7 @@
 input: ./src
 output: .retype
 
-url: docs.hyperyield.com # Use your website address here
+url: docs.hyperyield.cash # Use your website address here
 
 start:
   # Uncomment the next line to try Retype Pro features
