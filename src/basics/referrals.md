@@ -11,3 +11,5 @@ When someone signs up for Hyperyield using your referral link, you will receive 
 You will receive payments on every rebalance or position close in the currencies that they are liquidity providers for. For example, if someone is an LP for UPUMP/WHYPE, you will receive payouts in both UPUMP and WHYPE.
 
 By default, your referral fee wallet is your Hyperyield wallet. We strongly encourage you to set this to another wallet you control.
+
+Referrals can only be set on an account that is less than 24 hours old.
